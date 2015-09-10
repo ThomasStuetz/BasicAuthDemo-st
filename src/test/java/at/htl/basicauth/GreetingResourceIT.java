@@ -25,7 +25,7 @@ public class GreetingResourceIT {
         HttpAuthenticationFeature feature = HttpAuthenticationFeature
                 .basicBuilder()
                 .nonPreemptive()
-                .credentials("student","passmex")
+                .credentials("student","passme")
                 .build();
         ClientConfig clientConfig = new ClientConfig();
         clientConfig.register(feature);
